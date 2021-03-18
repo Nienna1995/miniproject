@@ -8,7 +8,7 @@ button {
 }
 
 .orangeButton{
-  background-color: pink;
+  background-color: orange;
 }
 .greenButton{
   background-color: lightgreen;
@@ -17,10 +17,10 @@ button {
   background-color: lightblue;
 }
 .purpleButton{
-  background-color: yellow;
+  background-color: purple;
 }
 .redButton{
-  background-color: green;
+  background-color: red;
 }
 
 table, th, td {
