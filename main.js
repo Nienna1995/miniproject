@@ -52,6 +52,9 @@ function outputData(person) {
   if ((new RegExp(/author/gi)).test(person.profession)) {
     row.classList.add('auto');
   }
+  if ((new RegExp(/December/gi)).test(person.profession)) {
+    row.classList.add('month');
+  }
 
 }
 

@@ -19,6 +19,9 @@ button {
 .purpleButton{
   background-color: yellow;
 }
+.redButton{
+  background-color: green;
+}
 
 table, th, td {
   border: 2px solid red;
