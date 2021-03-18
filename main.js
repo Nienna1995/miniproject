@@ -53,7 +53,7 @@ function outputData(person) {
     row.classList.add('auto');
   }
   //Add a class to Politicians
-  if ((new RegExp(/politician/gi)).test(person.profession)) {
+  if ((new RegExp(/politician|president|minister/gi)).test(person.profession)) {
     row.classList.add('politician');
   }
 
