@@ -52,8 +52,8 @@ function outputData(person) {
   if ((new RegExp(/author/gi)).test(person.profession)) {
     row.classList.add('auto');
   }
-  if ((new RegExp(/December's deaths/gi)).test(person.date)) {
-    row.classList.add('month');
+  if ((new RegExp(/Politicians/gi)).test(person.profession)) {
+    row.classList.add('politician');
   }
 
 }
