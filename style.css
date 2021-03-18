@@ -8,7 +8,7 @@ button {
 }
 
 .orangeButton{
-  background-color: #FE9A2E;
+  background-color: #fe9a2e;
 }
 .greenButton{
   background-color: lightgreen;
@@ -17,14 +17,14 @@ button {
   background-color: lightblue;
 }
 .purpleButton{
-  background-color: #AC58FA;
+  background-color: #ac58fa;
 }
 .redButton{
-  background-color: #FE2E2E;
+  background-color: #fe2e2e;
 }
 
 table, th, td {
-  border: 2px solid red;
+  border: 1px solid black;
 }
 
 table {
