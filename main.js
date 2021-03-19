@@ -48,6 +48,10 @@ function outputData(person) {
   if ((new RegExp(/american/gi)).test(person.profession)) {
     row.classList.add('american');
   }
+   // Add a class to Austrians
+   if ((new RegExp(/Austria|austrian/gi)).test(person.profession)) {
+     row.classList.add('Austria|austrian');
+   }
   // Add a class to Auto*
   if ((new RegExp(/author/gi)).test(person.profession)) {
     row.classList.add('auto');
