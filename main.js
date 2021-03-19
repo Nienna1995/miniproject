@@ -56,7 +56,10 @@ function outputData(person) {
   if ((new RegExp(/politician|president|minister/gi)).test(person.profession)) {
     row.classList.add('politician|president|minister');
   }
-
+  //Add a class to composer and people who have to do with music
+  if ((new RegExp(/musician|singer|composer|pianist|drummer/gi)).test(person.profession))      {
+   row.classList.add('musician|singer|composer|pianist|drummer');
+  }
 }
 
 // The below function will get called when the window finishes loading our data
